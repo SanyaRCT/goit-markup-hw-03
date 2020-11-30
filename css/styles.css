@@ -25,8 +25,9 @@ img {
 }
 
 .container {
-  width: 1170px;
+  width: 1200px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .visually-hidden {
@@ -54,6 +55,11 @@ address {
 }
 
 /*HEADER*/
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
 
 .header .container {
   display: flex;
@@ -140,6 +146,27 @@ address {
 
 /*HERO*/
 
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1600px;
+  min-height: 600px;
+  background: #2f303a;
+}
+
+.hero-box {
+  width: 696px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  outline: 2px solid tomato;
+}
+
+.hero-title {
+  margin-bottom: 30px;
+}
+
 .hero-title {
   font-family: var(--font-family);
   font-style: normal;
@@ -153,13 +180,18 @@ address {
 }
 
 .hero-btn {
+  min-width: 200px;
+  min-height: 50px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border: 0px;
+  padding: 0px;
+
   background: var(--hover-color);
   font-family: var(--font-family);
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
-  display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
@@ -172,6 +204,19 @@ address {
 }
 
 /*PRIORITY*/
+.priority-list {
+  display: flex;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.priority-list-item {
+  width: 270px;
+}
+
+.priority-list-item:not(:last-child) {
+  margin-right: 30px;
+}
 
 .priority-title {
   font-family: var(--font-family);
@@ -205,6 +250,21 @@ address {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--special-black-color);
+}
+
+.work-title {
+  margin-bottom: 50px;
+}
+
+.work-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 94px;
+}
+
+.work-list-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 /*TEAM*/
