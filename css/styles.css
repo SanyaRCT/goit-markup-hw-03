@@ -148,6 +148,8 @@ address {
 
 .hero {
   display: flex;
+  margin: auto;
+  text-align: center;
   justify-content: center;
   align-items: center;
   width: 1600px;
@@ -157,10 +159,7 @@ address {
 
 .hero-box {
   width: 696px;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  outline: 2px solid tomato;
+  display: block;
 }
 
 .hero-title {
@@ -268,8 +267,44 @@ address {
 }
 
 /*TEAM*/
+.team {
+  /* outline: 1px solid tomato; */
+  display: flex;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 1600px;
+  min-height: 600px;
+  background: #f5f4fa;
+}
+
+.team-list-item {
+  width: 270px;
+  min-height: 368px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-title {
+  padding-top: 94px;
+  margin-bottom: 50px;
+}
+
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 94px;
+}
+
+.team-list-item:not(:last-child) {
+  margin-right: 30px;
+}
 
 .team-list-title {
+  margin-top: 30px;
+  margin-bottom: 10px;
   font-family: var(--font-family);
   font-style: normal;
   font-weight: 500;
@@ -313,8 +348,28 @@ address {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-box {
+.logo-dark {
+  display: inline-block;
+  margin-right: 0;
+  margin-bottom: 20px;
+  outline: 1px solid tomato;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 1600px;
+  min-height: 252px;
   background: #2f303a;
+}
+
+.footer-list-item {
+  width: 231px;
+}
+
+.footer-list-item:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 /*PORTFOLIO-HERO*/
