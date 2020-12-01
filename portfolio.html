@@ -3,22 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/fonts.css">
     <link rel="stylesheet" href="./css/styles.css">
     <title>WebStudio</title>
 </head>
 <body>
-    <header class="header">
+    <header class="header header-port">
+        <div class="container">
         <nav class="nav">
             <a href="/" lang="en" class="logo"><span class="span-logo">Web</span>Studio</a>
             <ul class="nav-list">
                 <li class="nav-list-item">
                     <a href="index.html" class="link-nav">Студия</a>
                 </li>
-                <li class="list-nav-item">
+                <li class="nav-list-item">
                     <a href="portfolio.html" class="link-nav current">Портфолио</a>
                 </li>
-                <li class="list-nav-item">
+                <li class="nav-list-item">
                     <a href="#contacts" class="link-nav">Контакты</a>
                 </li>
             </ul>
@@ -33,11 +35,12 @@
                 </li>
             </ul>
         </address>
+        </div>
     </header>
     <main>
         <!--HERO-->
         <h1 class="visually-hidden">Заголовок</h1>
-        <section class="portfolio">
+        <section class="portfolio container">
             <ul class="portfolio-hero-list">
                 <li class="portfolio-hero-list-item">
                     <button class="portfolio-btn" type="button">Все</button>
@@ -107,22 +110,24 @@
         </section>
     </main>
     <footer id="contacts" class="footer">
-        <div class="footer-box">
-            <a href="/" lang="en" class="logo logo-dark"><span class="span-logo">Web</span>Studio</a>
-            <address class="address">
-                <ul class="footer-list">
-                    <li class="footer-list-item">
-                        <a href="https://goo.gl/maps/wBqnjVuJjJqZoF6Z9" target="_blank" rel="noreferrer noopener"
-                            class="map-link">г. Киев, пр-т Леси Украинки, 26</a>
-                    </li>
-                    <li class="footer-list-item">
-                        <a href="mailto:info@example.com" class="footer-addres-link">info@example.com</a>
-                    </li>
-                    <li class="footer-list-item">
-                        <a href="tel:+380961111111" class="footer-addres-link">+38 099 111 11 11</a>
-                    </li>
-                </ul>
-            </address>
+        <div class="footer-container">
+            <div class="footer-box container">
+                <a href="/" lang="en" class="logo logo-dark"><span class="span-logo">Web</span>Studio</a>
+                <address class="address">
+                    <ul class="footer-list">
+                        <li class="footer-list-item">
+                            <a href="https://goo.gl/maps/wBqnjVuJjJqZoF6Z9" target="_blank" rel="noreferrer noopener"
+                                class="map-link">г. Киев, пр-т Леси Украинки, 26</a>
+                        </li>
+                        <li class="footer-list-item">
+                            <a href="mailto:info@example.com" class="footer-addres-link">info@example.com</a>
+                        </li>
+                        <li class="footer-list-item">
+                            <a href="tel:+380961111111" class="footer-addres-link">+38 099 111 11 11</a>
+                        </li>
+                    </ul>
+                </address>
+            </div>
         </div>
     </footer>
 </body>
