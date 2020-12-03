@@ -57,13 +57,8 @@ address {
 /*========HEADER========*/
 
 .header {
-  display: flex;
-  margin: auto;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  width: 1600px;
-  min-height: 80px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .header .container {
@@ -210,10 +205,13 @@ address {
 
 /*========PRIORITY========*/
 
-.priority-list {
-  display: flex;
+.priority {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+.priority-list {
+  display: flex;
 }
 
 .priority-list-item {
