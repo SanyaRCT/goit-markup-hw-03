@@ -388,13 +388,10 @@ address {
   border-bottom: 1px solid #ececec;
 }
 
-.buttons {
-  margin-bottom: 50px;
-}
-
 .portfolio-hero-list {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .portfolio-hero-list-item:not(:last-child) {
@@ -440,6 +437,8 @@ address {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--special-black-color);
+
+  margin-bottom: 4px;
 }
 
 .portfolio-discription {
